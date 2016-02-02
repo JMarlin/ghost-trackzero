@@ -1,6 +1,6 @@
 <div class="nav">
         {{#foreach navigation}}
-            {{#if current}}>> {{/if}}<a href="{{url absolute="true"}}">{{label}}</a><br>
+            <a href="{{url absolute="true"}}">{{#if current}}>> {{/if}}{{label}}</a><br>
         {{/foreach}}
     <a class="subscribe-button icon-feed" href="{{@blog.url}}/rss/">Subscribe</a>
 </div>
