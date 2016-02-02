@@ -107,3 +107,9 @@ main#content {
     margin-right: auto;
     width: 600px;
 }
+
+header.main-header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
