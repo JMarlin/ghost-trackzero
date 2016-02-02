@@ -123,10 +123,8 @@ header.main-header {
 
 article {
     border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
 }
 
-article:first, article:last-of-type {
+main:first-child {
     border-top: none;
-    border-bottom: none;
 }
