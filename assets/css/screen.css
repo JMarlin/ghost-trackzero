@@ -157,7 +157,7 @@ aside.read-next {
     text-align: center;
 }
 
-div.nav a:nth-child(3n+1), a.read-more, , footer.post-meta a:nth-child(3n+2) {
+div.nav a:nth-child(3n+1), a.read-more, footer.post-meta a:nth-child(3n+2) {
     color: #d03040;
     background: transparent;
 }
