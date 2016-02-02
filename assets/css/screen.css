@@ -99,3 +99,11 @@ input::-moz-focus-inner { border: 0; padding: 0; }
 textarea { overflow: auto; vertical-align: top; }
 table { border-collapse: collapse; border-spacing: 0; }
 
+/* ==========================================================================
+   Custom styling
+   ========================================================================== */
+main#content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
