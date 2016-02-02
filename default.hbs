@@ -31,7 +31,7 @@
         <div class="vertical">
             <div class="main-header-content inner">
                 <h1 class="page-title">{{@blog.title}}</h1>
-                <h2 class="page-description">{{@blog.description}}</h2>
+                {{#if @blog.description}}<h2 class="page-description">{{@blog.description}}</h2>{{/if}}
             </div>
         </div>
         <hr>
