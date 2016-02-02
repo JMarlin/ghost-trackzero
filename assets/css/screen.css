@@ -121,10 +121,10 @@ header.main-header {
     left: 0px;
 }
 
-article {
-    border-top: 1px solid #000;
-}
-
 main:first-child {
     border-top: none;
+}
+
+article {
+    border-top: 1px solid #000;
 }
