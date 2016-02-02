@@ -109,8 +109,24 @@ main.content {
     width: 600px;
 }
 
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid #000;
+}
+
 header.main-header {
     position: absolute;
     top: 0px;
     left: 0px;
+}
+
+article {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+article:first, article:last-of-type {
+    border-top: none;
+    border-bottom: none;
 }
