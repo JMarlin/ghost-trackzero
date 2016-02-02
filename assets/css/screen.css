@@ -129,3 +129,14 @@ article:first-of-type {
 article {
     border-top: 1px solid #000;
 }
+
+footer.post-meta {
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+footer.site-footer {
+    width: 100%;
+    text-align: center;
+    margin-top: 150px;
+}
