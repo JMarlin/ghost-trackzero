@@ -121,7 +121,7 @@ header.main-header {
     left: 0px;
 }
 
-main:first-child {
+article:first-of-type {
     border-top: none;
 }
 
