@@ -110,6 +110,10 @@ html {
     border-color: #e0dee0;
 }
 
+a {
+    text-decoration: none;
+}
+
 h1.page-title {
     margin-top: 0px;
     margin-bottom: 10px;
@@ -157,7 +161,7 @@ aside.read-next {
     text-align: center;
 }
 
-div.nav a:nth-child(3n+1), a.read-more, footer.post-meta a:nth-child(3n+2) {
+div.nav a:nth-child(3n+1), a.read-more, footer.post-meta a:nth-child(3n+3) {
     color: #d03040;
     background: transparent;
 }
@@ -172,6 +176,6 @@ div.nav a:nth-child(3n+3), footer.post-meta a:nth-child(3n+1) {
     background: transparent;
 }
 
-footer.site-footer a, footer.post-meta a:nth-child(3n+3) {
+footer.site-footer a, footer.post-meta a:nth-child(3n+2) {
     color: #E76E23;
 }
