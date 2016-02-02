@@ -111,10 +111,6 @@ h1.page-title {
     margin-top: 0px;
 }
 
-body {
-    margin: 20px;
-}
-
 main.content {
     margin-top: 75px;
     margin-left: auto;
@@ -130,8 +126,8 @@ hr {
 
 header.main-header {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 15px;
+    left: 20px;
 }
 
 article:first-of-type {
