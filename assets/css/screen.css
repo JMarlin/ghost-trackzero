@@ -127,10 +127,15 @@ main.content {
 }
 
 hr:before {
+    position: relative;
+    top: -0.7em;
+    left: -25px;
     content: "//";
 }
 
 hr {
+    color: #806e60;
+    margin-left: 25px;
     border: 0;
     height: 0;
     border-top: 2px dashed;
@@ -140,14 +145,6 @@ header.main-header {
     position: absolute;
     top: 15px;
     left: 20px;
-}
-
-article:first-of-type {
-    border-top: none;
-}
-
-article {
-    border-top: 2px dashed;
 }
 
 footer.post-meta {
