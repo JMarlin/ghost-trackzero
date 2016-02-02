@@ -35,6 +35,7 @@ audio:not([controls]) { display: none; height: 0; }
 [hidden], template { display: none; }
 html {
    font-family: monospace;
+   font-size: 1.5;
    -ms-text-size-adjust: 100%;
    -webkit-text-size-adjust: 100%;
 }
@@ -42,7 +43,7 @@ body { margin: 0; }
 a { background: transparent; }
 a:focus { outline: thin dotted; }
 a:active, a:hover { outline: 0; }
-h1 { font-size: 2em; margin: 0.67em 0; }
+h1 { font-size: 3em; margin: 0.67em 0; }
 abbr[title] { border-bottom: 1px dotted; }
 b, strong { font-weight: 700; }
 dfn { font-style: italic; }
@@ -140,3 +141,8 @@ footer.site-footer {
     text-align: center;
     margin-top: 150px;
 }
+
+h2 {
+    font-size: 2em;
+}
+
