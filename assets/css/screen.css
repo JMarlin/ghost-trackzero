@@ -196,3 +196,11 @@ section.share a:nth-child(4n+4),
 span.active-page-carat {
     color: #D0CE30;
 }
+
+section.post-meta {
+    color: #806e60;
+}
+
+section.post-meta:before {
+    content: "//";
+}
