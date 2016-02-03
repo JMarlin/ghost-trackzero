@@ -193,6 +193,10 @@ span.active-page-carat {
     color: #D0CE30;
 }
 
+section.share {
+    margin-left: 1em;
+}
+
 section.post-meta {
     color: #806e60;
 }

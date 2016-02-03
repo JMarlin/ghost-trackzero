@@ -14,6 +14,7 @@
             <hr>
             <section class="post-meta">
                 <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time> {{tags prefix=" on "}}
+                by
                 {{#author}}
                     <span class="author"><a href="{{url}}">{{name}}</a></section>
                 {{/author}}
@@ -51,16 +52,16 @@
 </main>
 
 <aside class="read-next">
-    {{#next_post}}
-    <a class="read-next-story {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}" href="{{url}}">
-            &lt;- {{title}}
-    </a>
-    {{/next_post}}
     {{#prev_post}}
     <a class="read-next-story prev {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}" href="{{url}}">
-            {{title}} -&gt;
+            &lt;- {{title}} 
     </a>
     {{/prev_post}}
+    {{#next_post}}
+    <a class="read-next-story {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}" href="{{url}}">
+            {{title}} -&gt;
+    </a>
+    {{/next_post}}
 </aside>
 
 {{/post}}
