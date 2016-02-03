@@ -187,12 +187,12 @@ footer.post-meta a:nth-child(3n+1) {
 
 footer.site-footer a,
 section.author a:nth-child(4n+2),
-section.share a:nth-child(4n+4),
+section.share a:nth-child(4n+2),
 footer.post-meta a:nth-child(3n+2) {
     color: #E76E23;
 }
 
-section.share a:nth-child(4n+3),
+section.share a:nth-child(4n+4),
 span.active-page-carat {
     color: #D0CE30;
 }
