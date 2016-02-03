@@ -167,22 +167,18 @@ a.read-more,
 section.share a:nth-child(4n+1),
 footer.post-meta a:nth-child(3n+3) {
     color: #d03040;
-    background: transparent;
 }
 
 div.nav a:nth-child(3n+2),
 section.share a:nth-child(4n+2),
 h2.post-title a {
     color: #7CB32A;
-    background: transparent;
 }
 
 div.nav a:nth-child(3n+3),
 section.author a:nth-child(4n+1),
-section.share a:nth-child(4n+1),
 footer.post-meta a:nth-child(3n+1) {
     color: #00D8FF;
-    background: transparent;
 }
 
 footer.site-footer a,
