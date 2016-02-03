@@ -54,12 +54,12 @@
 <aside class="read-next">
     {{#prev_post}}
     <a class="read-next-story prev {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}" href="{{url}}">
-            &lt;- {{title}} 
+            <span class="nav-arrow">&lt;-</span> {{title}} 
     </a>
     {{/prev_post}}
     {{#next_post}}
     <a class="read-next-story {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}" href="{{url}}">
-            {{title}} -&gt;
+            {{title}} <span class="nav-arrow">-&gt;</span>
     </a>
     {{/next_post}}
 </aside>

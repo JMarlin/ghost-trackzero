@@ -178,7 +178,8 @@ h2.post-title a {
 
 div.nav a:nth-child(3n+3),
 span.author a:nth-child(4n+1),
-footer.post-meta a:nth-child(3n+1) {
+footer.post-meta a:nth-child(3n+1),
+span.nav-arrow {
     color: #00D8FF;
 }
 
